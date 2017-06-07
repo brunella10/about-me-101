@@ -8,45 +8,45 @@ var university = prompt('What university did you attend?');
 alert('Oh, amazing!');
 console.log('when user responds about a place, respond with amazing');
 
-var degree = prompt('Did you finish College?'); // add yes or not question//
+var degree = prompt('Did I finish College?'); // add yes or not question//
 console.log('if user did not answer, ask about something else');
 if (degree === 'no') {
-  NoIdont = 'I hope you know what you are doing bro!';
+  NoIdont = 'It is not correct! I have 1 mayor degree in Law and around 5 master degree, most of them about tax and finance';
   alert(NoIdont);
 } else if (degree === 'No') {
-  NoIdoNot = 'I hope you know what you are doing!';
+  NoIdoNot = 'It is not correct! I have 1 mayor degree in Law and around 5 master degree, most of them about tax and finance';
   alert(NoIdoNot);
 } else {
-  YesIdid = 'Congratulations!!!';
+  YesIdid = 'I graduate in 2007';
   alert(YesIdid);
 }
 
-var about = prompt('Did you like the university?');
+var about = prompt('Did I like the university?');
 console.log('if the user said no, change the questions about the university to hobbies or plans');
 if (about === "no") {
-  LikeIt = 'That is bad!';
+  LikeIt = 'Sometimes! hahaha';
   alert(LikeIt);
 } else {
-  DisLike = 'I love to hear that!';
+  DisLike = 'Not always! I made some good friends there.';
   alert(DisLike);
 }
 
-var study = prompt('Do you like you career?');
+var study = prompt('Do I like you career?');
 console.log ('if the user answers no, ask why?');
 //add if else //
 if (study === "yes" || study === 'y') {
-  answer = 'awesome';
+  answer = 'I am lawyer, what can I say!? ';
   alert(answer);
 } else {
-  answerNegative = 'that sounds bad';
+  answerNegative = 'It have good and bad things! ';
   alert(answerNegative);
 }
 
-var vacation =prompt('Are you planning to take a vacation after College?');
+var vacation =prompt('Do I have plans to take a vacation after CodeFellows?');
 if (vacation === "yes") {
-  PlaceToGo = 'I hope you enjoy it!';
+  PlaceToGo = 'off course! we gonna need it!';
   alert(PlaceToGo);
 } else {
-  StayHome = 'Get some rest then';
+  StayHome = 'I gonna spend the day sleeping! ZzZzZzZ ';
   alert(StayHome);
 }
