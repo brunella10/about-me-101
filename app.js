@@ -14,8 +14,8 @@ if (degree === 'no') {
   NoIdont = 'I hope you know what you are doing bro!';
   alert(NoIdont);
 } else if (degree === 'No') {
-    NoIdoNot = 'I hope you know what you are doing!';
-    alert(NoIdoNot);
+  NoIdoNot = 'I hope you know what you are doing!';
+  alert(NoIdoNot);
 } else {
   YesIdid = 'Congratulations!!!';
   alert(YesIdid);

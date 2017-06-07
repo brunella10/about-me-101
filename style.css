@@ -53,13 +53,13 @@ ul {
 }
 .container-rounded
 {
-font-family: inherit;
-font-style: oblique;
-background-color: #E8DAEF;
-padding-left: 10px;
-padding-right: 10px;
-margin-top: 20px;
-color:#5D6D7E;
-border: 5px solid #808B96;
+  font-family: inherit;
+  font-style: oblique;
+  background-color: #E8DAEF;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 20px;
+  color:#5D6D7E;
+  border: 5px solid #808B96;
 
 }
