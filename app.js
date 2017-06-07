@@ -47,6 +47,6 @@ if (vacation === "yes") {
   PlaceToGo = 'I hope you enjoy it!';
   alert(PlaceToGo);
 } else {
-  StayHome = 'I love to hear that!';
+  StayHome = 'Get some rest then';
   alert(StayHome);
 }
