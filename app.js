@@ -68,7 +68,7 @@ if (vacation === "yes") {
   StayHome = 'I gonna spend the day sleeping! ZzZzZzZ ';
   alert(StayHome);
 }
-alert('You have'  + rightAnswer +  'rightAnswer' );
+alert(' You have '  +  rightAnswer  +  ' right Answer ' );
 //question6
 
 //booleans true or false questions
