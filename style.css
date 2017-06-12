@@ -1,65 +1,114 @@
+*{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: justify;
 
+}
 img
 {
   width: 600px;
   height: 300px;
-  margin-left: 380px;
-  border-color: 10px solid purple;
+  margin-left: 0px;
+  padding-left: 400px;
+  padding-right: 300px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #62BEC1;
 }
+
 header
 {
-  color: #900C3F;
-  font-family: sans-serif;
   font-size: 60px;
   font-weight: bolder;
-  margin-top: 40px;
+  margin-top: 60px;
   margin-bottom: 40px;
-  margin-left: 400px;
+  margin-left: 500px;
+  text-decoration: underline;
 }
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
 body
 {
-  color: #900C3F;
-  font-family: sans-serif;
+  color: black;
   font-size: 18px;
   font-weight: bolder;
-  background-color: #F9EBEA;
+  background-color: #FAF8F3;
+}
 
-}
-ul {
-  color: #900C3F;
-}
-.container-body
+h5
 {
-  background-color: #F2D7D5;
-  margin-left: 40px;
-  margin-right: 40px;
-  padding-left: 80px;
-  padding-right: 80px;
+  background-color: #646881;
+  color: white;
+  text-align: center;
+  te
+  font-size: 16px;
+  padding: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 500px;
+  margin-bottom: 50px;
 }
-.container-degree
+
+.study
 {
-  background-color: #E8F8F5;
-  border: 5px solid #808B96;
   padding-top: 10px;
   padding-bottom: 10px;
+  text-decoration: underline;
 }
-.container-experience
+.job
 {
-  background-color: #E8F8F5;
-  border: 5px solid #808B96;
   padding-top: 10px;
   padding-bottom: 10px;
   margin-top: 20px;
+  text-decoration: underline;
 }
-.container-rounded
+.bio
 {
-  font-family: inherit;
-  font-style: oblique;
-  background-color: #E8DAEF;
   padding-left: 10px;
   padding-right: 10px;
-  margin-top: 20px;
-  color:#5D6D7E;
-  border: 5px solid #808B96;
-
+  margin-top: 10px;
+  color: black;
 }
+.column1, .column2, .bio
+{
+padding: 10px;
+width: 300px;
+float: left;
+margin: 20px;
+margin-left: 60px;
+}
+/*.movies
+{
+  padding: 20px;
+  width: 150px;
+
+  margin: 20px;
+}*/
+
+646881 PURPLE
+62BEC1 GREEN
+5AD2F4 BLUE
